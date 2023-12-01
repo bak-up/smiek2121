@@ -285,7 +285,8 @@ function taskPostUrl(url, body) {
       "Content-Type": "application/x-www-form-urlencoded",
       'Cookie': `${cookie}`,
       "User-Agent": "JD4iPhone/167853 (iPhone; iOS; Scale/2.00)" ,
-    }
+    },
+    secureProtocol: 'TLSv1_2_method',
   }
 }
 
